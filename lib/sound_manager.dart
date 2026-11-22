@@ -32,10 +32,10 @@ class SoundManager {
   Future<void> startBackgroundMusic() async {
     if (!GameSettingsController.instance.soundOn) return;
     try {
-      if (!_isBgmStarted) {
+      if (!_isBgmStarted || _bgmPlayer.state == PlayerState.stopped) {
         await _bgmPlayer.play(AssetSource(_bgmAssetPath));
         _isBgmStarted = true;
-      } else {
+      } else if (_bgmPlayer.state != PlayerState.playing) {
         await _bgmPlayer.resume();
       }
     } catch (_) {

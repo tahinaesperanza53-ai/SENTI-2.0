@@ -36,9 +36,7 @@ class _LearnersGameAppState extends State<LearnersGameApp>
 
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
-    if (state == AppLifecycleState.paused ||
-        state == AppLifecycleState.inactive ||
-        state == AppLifecycleState.hidden) {
+    if (state == AppLifecycleState.paused) {
       SoundManager.instance.pauseBackgroundMusic();
     } else if (state == AppLifecycleState.resumed) {
       SoundManager.instance.syncWithSettings();
