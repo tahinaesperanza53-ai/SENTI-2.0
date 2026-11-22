@@ -1,0 +1,75 @@
+name: learners_game
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0
+  http: ^1.2.0
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/Home.jpeg
+    - assets/images/Learn.jpeg
+    - assets/images/learn_bg.jpeg
+    - assets/images/apply_bg.jpeg
+    - assets/images/play_bg.jpeg
+    - assets/images/Apply.jpeg
+    - assets/images/Play.jpeg
+    - assets/images/asking.jpeg
+    - assets/images/telling.jpeg
+    - assets/images/commanding.jpeg
+    - assets/images/exclamatory.jpeg
+    - assets/images/back.jpeg
+    - assets/images/settings.jpeg
+    - assets/images/1.jpeg
+    - assets/images/2.jpeg
+    - assets/images/3.jpeg
+    - assets/images/4.jpeg
+    - assets/images/5.jpeg
+    - assets/images/6.jpeg
+    - assets/images/7.jpeg
+    - assets/images/play_btn1.jpeg
+    - assets/images/play_btn2.jpeg
+    - assets/images/play_btn3.jpeg
+    - assets/images/play_btn4.jpeg
+    - assets/images/sb_bg.jpeg
+    - assets/images/qc_bg.jpeg
+    - assets/images/dwis_bg.jpeg
+    - assets/images/fb_bg.jpeg
+    - assets/images/es_bg.jpeg
+    - assets/images/rlrs_bg.jpeg
+    - assets/images/sr_bg.jpeg
+    - assets/images/asking_bg.jpeg
+    - assets/images/telling_bg.jpeg
+    - assets/images/commanding_bg.jpeg
+    - assets/images/exclamatory_bg.jpeg
+    - assets/images/telling_race.jpeg
+    - assets/images/telling_game.jpeg
+    - assets/images/telling_quest.jpeg
+    - assets/images/asking_race.jpeg
+    - assets/images/asking_game.jpeg
+    - assets/images/asking_quest.jpeg
+    - assets/images/commanding_race.jpeg
+    - assets/images/commanding_game.jpeg
+    - assets/images/commanding_quest.jpeg
+    - assets/images/exclamatory_race.jpeg
+    - assets/images/exclamatory_game.jpeg
+    - assets/images/exclamatory_quest.jpeg
+    - assets/images/pause_btn.jpeg
+    - assets/audio/game_theme.mp3
